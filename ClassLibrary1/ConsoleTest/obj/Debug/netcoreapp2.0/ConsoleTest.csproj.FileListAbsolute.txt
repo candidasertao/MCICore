@@ -1,0 +1,15 @@
+D:\Projetos\MCICore\ClassLibrary1\ConsoleTest\bin\Debug\netcoreapp2.0\ConsoleTest.deps.json
+D:\Projetos\MCICore\ClassLibrary1\ConsoleTest\bin\Debug\netcoreapp2.0\ConsoleTest.runtimeconfig.json
+D:\Projetos\MCICore\ClassLibrary1\ConsoleTest\bin\Debug\netcoreapp2.0\ConsoleTest.runtimeconfig.dev.json
+D:\Projetos\MCICore\ClassLibrary1\ConsoleTest\bin\Debug\netcoreapp2.0\ConsoleTest.dll
+D:\Projetos\MCICore\ClassLibrary1\ConsoleTest\bin\Debug\netcoreapp2.0\DAL.dll
+D:\Projetos\MCICore\ClassLibrary1\ConsoleTest\bin\Debug\netcoreapp2.0\Model.dll
+D:\Projetos\MCICore\ClassLibrary1\ConsoleTest\bin\Debug\netcoreapp2.0\DAL.pdb
+D:\Projetos\MCICore\ClassLibrary1\ConsoleTest\bin\Debug\netcoreapp2.0\Model.pdb
+D:\Projetos\MCICore\ClassLibrary1\ConsoleTest\obj\Debug\netcoreapp2.0\ConsoleTest.csprojResolveAssemblyReference.cache
+D:\Projetos\MCICore\ClassLibrary1\ConsoleTest\obj\Debug\netcoreapp2.0\ConsoleTest.csproj.CoreCompileInputs.cache
+D:\Projetos\MCICore\ClassLibrary1\ConsoleTest\obj\Debug\netcoreapp2.0\ConsoleTest.AssemblyInfoInputs.cache
+D:\Projetos\MCICore\ClassLibrary1\ConsoleTest\obj\Debug\netcoreapp2.0\ConsoleTest.AssemblyInfo.cs
+D:\Projetos\MCICore\ClassLibrary1\ConsoleTest\bin\Debug\netcoreapp2.0\ConsoleTest.pdb
+D:\Projetos\MCICore\ClassLibrary1\ConsoleTest\obj\Debug\netcoreapp2.0\ConsoleTest.dll
+D:\Projetos\MCICore\ClassLibrary1\ConsoleTest\obj\Debug\netcoreapp2.0\ConsoleTest.pdb

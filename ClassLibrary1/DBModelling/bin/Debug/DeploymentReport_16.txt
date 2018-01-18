@@ -1,0 +1,28 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[IDENTITYSERVER_CLIENTS_CLAIM]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Alter
+       [dbo].[CAMPANHAS] (Table)
+     Table rebuild
+       [dbo].[IDENTITYSERVER_CLIENTS_CLAIM] (Table)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_IDENTITYSERVER_CLIENTS_CLAIM_IDENTITYSERVER_CLIENTS] (Foreign Key)
+     Create
+       [dbo].[FK_IDENTITYSERVER_CLIENTS_CLAIM_IDENTITYSERVER_CLIENTS] (Foreign Key)
+     Refresh
+       [dbo].[HIGIENIZA] (Procedure)
+       [dbo].[CAMPANHA_RETORNO_PAGINACAO] (Procedure)
+       [dbo].[CONSOLIDADO_STATUS_PAGINACAO] (Procedure)
+
+The object [moneoci] already exists in database with a different definition and will not be altered.
+

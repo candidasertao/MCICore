@@ -1,0 +1,5 @@
+D:\Projetos\MCI\src\RoboEnviosMoneo\bin\Release\netcoreapp1.1\RoboEnviosMoneo.deps.json
+D:\Projetos\MCI\src\RoboEnviosMoneo\bin\Release\netcoreapp1.1\RoboEnviosMoneo.runtimeconfig.json
+D:\Projetos\MCI\src\RoboEnviosMoneo\bin\Release\netcoreapp1.1\RoboEnviosMoneo.runtimeconfig.dev.json
+D:\Projetos\MCI\src\RoboEnviosMoneo\obj\Release\netcoreapp1.1\RoboEnviosMoneo.csprojResolveAssemblyReference.cache
+D:\Projetos\MCI\src\RoboEnviosMoneo\obj\Release\netcoreapp1.1\RoboEnviosMoneo.AssemblyInfo.cs

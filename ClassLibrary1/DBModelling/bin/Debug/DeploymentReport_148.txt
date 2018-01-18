@@ -1,0 +1,22 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Alter
+       [dbo].[CAMPANHA_RETORNO] (Table)
+       [dbo].[CAMPANHAS] (Table)
+       [dbo].[RETORNO_CLASSIFICACAO] (Table)
+
+** Supporting actions
+     Refresh
+       [dbo].[CAMPANHA_RETORNO_PAGINACAO] (Procedure)
+       [dbo].[CONSOLIDADO_CAMPANHAS_AGENDADA] (Procedure)
+       [dbo].[HIGIENIZA] (Procedure)
+       [dbo].[CONSOLIDADO_STATUS_PAGINACAO] (Procedure)

@@ -1,0 +1,25 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Rename
+       [dbo].[CELULARES_INVALIDOS_CONSOLIDADO].[ARQUIVO] (Column)
+     Alter
+       [dbo].[CAMPANHAS] (Table)
+       [dbo].[CELULARES_INVALIDOS_CONSOLIDADO] (Table)
+
+** Supporting actions
+     Refresh
+       [dbo].[HIGIENIZA] (Procedure)
+       [dbo].[CAMPANHA_RETORNO_PAGINACAO] (Procedure)
+       [dbo].[CONSOLIDADO_STATUS_PAGINACAO] (Procedure)
+
+The object [moneoci] already exists in database with a different definition and will not be altered.
+

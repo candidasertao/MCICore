@@ -1,0 +1,17 @@
+D:\Projetos\MCI\src\MoneoCI\bin\x64\Debug\netcoreapp1.1\MoneoCI.deps.json
+D:\Projetos\MCI\src\MoneoCI\bin\x64\Debug\netcoreapp1.1\MoneoCI.runtimeconfig.json
+D:\Projetos\MCI\src\MoneoCI\bin\x64\Debug\netcoreapp1.1\MoneoCI.runtimeconfig.dev.json
+D:\Projetos\MCI\src\MoneoCI\bin\x64\Debug\netcoreapp1.1\MoneoCI.dll
+D:\Projetos\MCI\src\MoneoCI\bin\x64\Debug\netcoreapp1.1\MoneoCI.pdb
+D:\Projetos\MCI\src\MoneoCI\bin\x64\Debug\netcoreapp1.1\ConecttaManagerData.dll
+D:\Projetos\MCI\src\MoneoCI\bin\x64\Debug\netcoreapp1.1\MoneoCIModel.dll
+D:\Projetos\MCI\src\MoneoCI\bin\x64\Debug\netcoreapp1.1\ConecttaManagerData.pdb
+D:\Projetos\MCI\src\MoneoCI\bin\x64\Debug\netcoreapp1.1\MoneoCIModel.pdb
+D:\Projetos\MCI\src\MoneoCI\obj\x64\Debug\netcoreapp1.1\MoneoCI.csprojResolveAssemblyReference.cache
+D:\Projetos\MCI\src\MoneoCI\obj\x64\Debug\netcoreapp1.1\MoneoCI.AssemblyInfo.cs
+D:\Projetos\MCI\src\MoneoCI\obj\x64\Debug\netcoreapp1.1\MoneoCI.dll
+D:\Projetos\MCI\src\MoneoCI\obj\x64\Debug\netcoreapp1.1\MoneoCI.pdb
+D:\Projetos\MCI\src\MoneoCI\obj\x64\Debug\netcoreapp1.1\MoneoCI.csproj.CoreCompileInputs.cache
+D:\Projetos\MCI\src\MoneoCI\obj\x64\Debug\netcoreapp1.1\MoneoCI.AssemblyInfoInputs.cache
+D:\Projetos\MCI\src\MoneoCI\bin\x64\Debug\netcoreapp1.1\MoneoCI.dll.config
+D:\Projetos\MCI\src\MoneoCI\obj\x64\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs

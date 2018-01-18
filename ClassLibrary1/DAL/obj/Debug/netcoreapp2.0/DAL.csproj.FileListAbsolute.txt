@@ -1,0 +1,11 @@
+D:\Projetos\MCICore\ClassLibrary1\DAL\bin\Debug\netcoreapp2.0\DAL.deps.json
+D:\Projetos\MCICore\ClassLibrary1\DAL\bin\Debug\netcoreapp2.0\DAL.dll
+D:\Projetos\MCICore\ClassLibrary1\DAL\obj\Debug\netcoreapp2.0\DAL.csproj.CoreCompileInputs.cache
+D:\Projetos\MCICore\ClassLibrary1\DAL\obj\Debug\netcoreapp2.0\DAL.AssemblyInfoInputs.cache
+D:\Projetos\MCICore\ClassLibrary1\DAL\obj\Debug\netcoreapp2.0\DAL.AssemblyInfo.cs
+D:\Projetos\MCICore\ClassLibrary1\DAL\obj\Debug\netcoreapp2.0\DAL.csprojResolveAssemblyReference.cache
+D:\Projetos\MCICore\ClassLibrary1\DAL\bin\Debug\netcoreapp2.0\DAL.pdb
+D:\Projetos\MCICore\ClassLibrary1\DAL\bin\Debug\netcoreapp2.0\Model.dll
+D:\Projetos\MCICore\ClassLibrary1\DAL\bin\Debug\netcoreapp2.0\Model.pdb
+D:\Projetos\MCICore\ClassLibrary1\DAL\obj\Debug\netcoreapp2.0\DAL.dll
+D:\Projetos\MCICore\ClassLibrary1\DAL\obj\Debug\netcoreapp2.0\DAL.pdb

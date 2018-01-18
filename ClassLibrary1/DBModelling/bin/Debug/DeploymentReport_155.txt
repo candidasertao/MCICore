@@ -1,0 +1,24 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[CAMPANHA_RETORNO].[CLASSIFICACAO] is being dropped, data loss could occur.
+
+** User actions
+     Alter
+       [dbo].[CAMPANHA_RETORNO] (Table)
+       [dbo].[CAMPANHAS] (Table)
+       [dbo].[CAMPANHA_RETORNO_PAGINACAO] (Procedure)
+
+** Supporting actions
+     Refresh
+       [dbo].[CONSOLIDADO_CAMPANHAS_AGENDADA] (Procedure)
+       [dbo].[HIGIENIZA] (Procedure)
+       [dbo].[CONSOLIDADO_STATUS_PAGINACAO] (Procedure)
+
+The column [dbo].[CAMPANHA_RETORNO].[CLASSIFICACAO] is being dropped, data loss could occur.
+

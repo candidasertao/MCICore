@@ -1,0 +1,19 @@
+﻿CREATE PROC dbo.HIGIENIZA
+@Celulares			VARCHAR(MAX),
+@DataInicial		DATE,
+@DataFinal			DATE,
+@ClienteID			INT
+AS
+DECLARE	@DELIMITER		CHAR(1) = ',';
+										DECLARE		@XML			XML = CAST(('<X>'+replace(@Celulares, @DELIMITER ,'</X><X>')+'</X>') AS XML);
+	
+										CREATE TABLE #TMP_CELLS
+										(
+											CODIGO	INT	IDENTITY (1,1), 
+											CELULAR	NUMERIC(11,0)
+										);
+										INSERT #TMP_CELLS 
+										SELECT N.value('.', 'NUMERIC(11,0)') AS CELULAR FROM @XML.nodes('X') AS T(N);
+
+										SELECT C.CELULAR FROM CAMPANHAS C JOIN #TMP_CELLS TC ON C.CELULAR=TC.CELULAR WHERE CARTEIRAID=1 AND DATAENVIAR BETWEEN '2017-4-1' AND '2017-4-1' AND CLIENTEID=1 AND STATUSENVIO=2
+										DROP TABLE #TMP_CELLS

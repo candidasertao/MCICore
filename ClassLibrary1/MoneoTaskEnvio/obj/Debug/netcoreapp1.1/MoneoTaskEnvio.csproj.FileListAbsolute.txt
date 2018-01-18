@@ -1,0 +1,15 @@
+D:\Projetos\MCI\src\MoneoTaskEnvio\bin\Debug\netcoreapp1.1\MoneoTaskEnvio.deps.json
+D:\Projetos\MCI\src\MoneoTaskEnvio\bin\Debug\netcoreapp1.1\MoneoTaskEnvio.runtimeconfig.json
+D:\Projetos\MCI\src\MoneoTaskEnvio\bin\Debug\netcoreapp1.1\MoneoTaskEnvio.runtimeconfig.dev.json
+D:\Projetos\MCI\src\MoneoTaskEnvio\bin\Debug\netcoreapp1.1\MoneoTaskEnvio.dll
+D:\Projetos\MCI\src\MoneoTaskEnvio\bin\Debug\netcoreapp1.1\MoneoTaskEnvio.pdb
+D:\Projetos\MCI\src\MoneoTaskEnvio\bin\Debug\netcoreapp1.1\ConecttaManagerData.dll
+D:\Projetos\MCI\src\MoneoTaskEnvio\bin\Debug\netcoreapp1.1\MoneoCIModel.dll
+D:\Projetos\MCI\src\MoneoTaskEnvio\bin\Debug\netcoreapp1.1\ConecttaManagerData.pdb
+D:\Projetos\MCI\src\MoneoTaskEnvio\bin\Debug\netcoreapp1.1\MoneoCIModel.pdb
+D:\Projetos\MCI\src\MoneoTaskEnvio\obj\Debug\netcoreapp1.1\MoneoTaskEnvio.csprojResolveAssemblyReference.cache
+D:\Projetos\MCI\src\MoneoTaskEnvio\obj\Debug\netcoreapp1.1\MoneoTaskEnvio.AssemblyInfo.cs
+D:\Projetos\MCI\src\MoneoTaskEnvio\obj\Debug\netcoreapp1.1\MoneoTaskEnvio.dll
+D:\Projetos\MCI\src\MoneoTaskEnvio\obj\Debug\netcoreapp1.1\MoneoTaskEnvio.pdb
+D:\Projetos\MCI\src\MoneoTaskEnvio\bin\Debug\netcoreapp1.1\appsettings.json
+D:\Projetos\MCI\src\MoneoTaskEnvio\obj\Debug\netcoreapp1.1\MoneoTaskEnvio.csproj.CoreCompileInputs.cache

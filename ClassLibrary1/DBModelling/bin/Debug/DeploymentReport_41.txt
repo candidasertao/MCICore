@@ -1,0 +1,26 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Alter
+       [dbo].[CAMPANHAS] (Table)
+     Create
+       [dbo].[SESSION].[IX_SESSION_Column] (Index)
+
+** Supporting actions
+     Refresh
+       [dbo].[HIGIENIZA] (Procedure)
+       [dbo].[CAMPANHA_RETORNO_PAGINACAO] (Procedure)
+       [dbo].[CONSOLIDADO_CAMPANHAS_AGENDADA] (Procedure)
+       [dbo].[CONSOLIDADO_STATUS_PAGINACAO] (Procedure)
+
+The object [moneoci] already exists in database with a different definition and will not be altered.
+If this deployment is executed, changes to [dbo].[CAMPANHAS] might introduce run-time errors in [dbo].[CONSOLIDADOS_DIARIO].
+

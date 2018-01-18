@@ -1,0 +1,9 @@
+D:\Projetos\MCICore\ClassLibrary1\DBModelling\bin\Debug\DBModelling.dacpac
+D:\Projetos\MCICore\ClassLibrary1\DBModelling\bin\Debug\DBModelling.dll
+D:\Projetos\MCICore\ClassLibrary1\DBModelling\bin\Debug\DBModelling.pdb
+D:\Projetos\MCICore\ClassLibrary1\DBModelling\obj\x64\Debug\Model.xml
+D:\Projetos\MCICore\ClassLibrary1\DBModelling\obj\x64\Debug\refactor.xml
+D:\Projetos\MCICore\ClassLibrary1\DBModelling\obj\x64\Debug\postdeploy.sql
+D:\Projetos\MCICore\ClassLibrary1\DBModelling\obj\x64\Debug\predeploy.sql
+D:\Projetos\MCICore\ClassLibrary1\DBModelling\obj\x64\Debug\DBModelling.dll
+D:\Projetos\MCICore\ClassLibrary1\DBModelling\obj\x64\Debug\DBModelling.pdb

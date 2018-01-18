@@ -1,0 +1,35 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[CAMPANHAS_CONSOLIDADO]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[CAMPANHAS_CONSOLIDADO].[ENVIADA] is being dropped, data loss could occur.
+
+** User actions
+     Alter
+       [dbo].[CAMPANHAS] (Table)
+     Table rebuild
+       [dbo].[CAMPANHAS_CONSOLIDADO] (Table)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_CAMPANHAS_CONSOLIDADOS_ARQUIVOS] (Foreign Key)
+       [dbo].[FK_CAMPANHAS_CONSOLIDADOS_CARTEIRAS] (Foreign Key)
+       [dbo].[FK_CAMPANHAS_CONSOLIDADOS_USUARIO] (Foreign Key)
+     Create
+       [dbo].[FK_CAMPANHAS_CONSOLIDADOS_ARQUIVOS] (Foreign Key)
+       [dbo].[FK_CAMPANHAS_CONSOLIDADOS_CARTEIRAS] (Foreign Key)
+       [dbo].[FK_CAMPANHAS_CONSOLIDADOS_USUARIO] (Foreign Key)
+     Refresh
+       [dbo].[HIGIENIZA] (Procedure)
+       [dbo].[CAMPANHA_RETORNO_PAGINACAO] (Procedure)
+       [dbo].[CONSOLIDADO_STATUS_PAGINACAO] (Procedure)
+       [dbo].[CAMPANHA_CONSOLIDADO_ENVIOS_PAGINACAO] (Procedure)
+
+The object [moneoci] already exists in database with a different definition and will not be altered.
+The column [dbo].[CAMPANHAS_CONSOLIDADO].[ENVIADA] is being dropped, data loss could occur.
+If this deployment is executed, changes to [dbo].[CAMPANHAS_CONSOLIDADO] might introduce run-time errors in [dbo].[CONSOLIDADO_ESPECIALIZADO_PAGINACAO].
+

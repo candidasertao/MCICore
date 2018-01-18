@@ -1,0 +1,28 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[RETORNO_CONSOLIDADO]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The type for column HORA in table [dbo].[RETORNO_CONSOLIDADO] is currently  SMALLDATETIME NOT NULL but is being changed
+         to  TINYINT NOT NULL. Data loss could occur.
+
+** User actions
+     Rename
+       [dbo].[RETORNO_CONSOLIDADO].[HORA] (Column)
+     Alter
+       [dbo].[CAMPANHAS] (Table)
+     Table rebuild
+       [dbo].[RETORNO_CONSOLIDADO] (Table)
+
+** Supporting actions
+     Refresh
+       [dbo].[HIGIENIZA] (Procedure)
+       [dbo].[CAMPANHA_RETORNO_PAGINACAO] (Procedure)
+       [dbo].[CONSOLIDADO_CAMPANHAS_AGENDADA] (Procedure)
+       [dbo].[CONSOLIDADO_STATUS_PAGINACAO] (Procedure)
+
+The type for column HORA in table [dbo].[RETORNO_CONSOLIDADO] is currently  SMALLDATETIME NOT NULL but is being changed to  TINYINT NOT NULL. Data loss could occur.
+

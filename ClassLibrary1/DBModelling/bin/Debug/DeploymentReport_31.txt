@@ -1,0 +1,40 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[CAMPANHAS_CONSOLIDADO]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[CAMPANHAS_CONSOLIDADO].[ENVIADA] on table [dbo].[CAMPANHAS_CONSOLIDADO] must be added, but the column
+         has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To
+         avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the
+         generation of smart-defaults as a deployment option.
+
+** User actions
+     Alter
+       [dbo].[CAMPANHAS] (Table)
+     Table rebuild
+       [dbo].[CAMPANHAS_CONSOLIDADO] (Table)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_CAMPANHAS_CONSOLIDADOS_ARQUIVOS] (Foreign Key)
+       [dbo].[FK_CAMPANHAS_CONSOLIDADOS_CARTEIRAS] (Foreign Key)
+       [dbo].[FK_CAMPANHAS_CONSOLIDADOS_USUARIO] (Foreign Key)
+     Create
+       [dbo].[FK_CAMPANHAS_CONSOLIDADOS_ARQUIVOS] (Foreign Key)
+       [dbo].[FK_CAMPANHAS_CONSOLIDADOS_CARTEIRAS] (Foreign Key)
+       [dbo].[FK_CAMPANHAS_CONSOLIDADOS_USUARIO] (Foreign Key)
+     Refresh
+       [dbo].[HIGIENIZA] (Procedure)
+       [dbo].[CAMPANHA_RETORNO_PAGINACAO] (Procedure)
+       [dbo].[CONSOLIDADO_STATUS_PAGINACAO] (Procedure)
+       [dbo].[CAMPANHA_CONSOLIDADO_ENVIOS_PAGINACAO] (Procedure)
+
+The object [moneoci] already exists in database with a different definition and will not be altered.
+The column [dbo].[CAMPANHAS_CONSOLIDADO].[ENVIADA] on table [dbo].[CAMPANHAS_CONSOLIDADO] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+If this deployment is executed, changes to [dbo].[CAMPANHAS] might introduce run-time errors in [dbo].[CONSOLIDADOS_DIARIO].
+If this deployment is executed, changes to [dbo].[CAMPANHAS_CONSOLIDADO] might introduce run-time errors in [dbo].[CONSOLIDADO_ESPECIALIZADO_PAGINACAO].
+If this deployment is executed, changes to [dbo].[CAMPANHAS_CONSOLIDADO] might introduce run-time errors in [dbo].[CONSOLIDADOS_DIARIO].
+

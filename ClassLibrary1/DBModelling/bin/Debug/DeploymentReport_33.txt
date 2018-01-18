@@ -1,0 +1,30 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Drop
+       unnamed constraint on [dbo].[IDENTITYSERVER_CLIENTS_SCOPES] (Default Constraint)
+     Alter
+       [dbo].[CAMPANHAS] (Table)
+       [dbo].[IDENTITYSERVER_CLIENTS_SCOPES] (Table)
+
+** Supporting actions
+     Create
+       Default Constraint: unnamed constraint on [dbo].[IDENTITYSERVER_CLIENTS_SCOPES] (Default Constraint)
+     Refresh
+       [dbo].[HIGIENIZA] (Procedure)
+       [dbo].[CAMPANHA_RETORNO_PAGINACAO] (Procedure)
+       [dbo].[CONSOLIDADO_CAMPANHAS_AGENDADA] (Procedure)
+       [dbo].[CONSOLIDADO_STATUS_PAGINACAO] (Procedure)
+
+The object [moneoci] already exists in database with a different definition and will not be altered.
+The column DATA on table [dbo].[IDENTITYSERVER_CLIENTS_SCOPES] must be changed from NULL to NOT NULL. If the table contains data, the ALTER script may not work. To avoid this issue, you must add values to this column for all rows or mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+If this deployment is executed, changes to [dbo].[CAMPANHAS] might introduce run-time errors in [dbo].[CONSOLIDADOS_DIARIO].
+

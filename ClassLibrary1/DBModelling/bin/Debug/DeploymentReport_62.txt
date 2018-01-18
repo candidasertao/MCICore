@@ -1,0 +1,196 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[BOLETOLANDING]
+       [dbo].[CAMPANHA_RETORNO]
+       [dbo].[CAMPANHAS]
+       [dbo].[CAMPANHAS_ARQUIVOS]
+       [dbo].[CAMPANHAS_ARQUIVOS_FILESZIP]
+       [dbo].[CAMPANHAS_CONSOLIDADO]
+       [dbo].[CARTEIRA_TELEFONES]
+       [dbo].[CARTEIRAS]
+       [dbo].[CELULAR_BLACKLIST]
+       [dbo].[CELULARES_INVALIDOS]
+       [dbo].[CELULARES_INVALIDOS_CONSOLIDADO]
+       [dbo].[CLIENTES]
+       [dbo].[CLIENTES_CONFIGURACAO]
+       [dbo].[CLIENTES_CONTATO]
+       [dbo].[FILECARDS]
+       [dbo].[FORNECEDOR]
+       [dbo].[FORNECEDOR_CAPACIDADE]
+       [dbo].[FORNECEDOR_CLIENTE]
+       [dbo].[FORNECEDOR_CONTATO]
+       [dbo].[FORNECEDOR_FAIXAS]
+       [dbo].[GESTOR]
+       [dbo].[GESTOR_CARTEIRAS]
+       [dbo].[GESTOR_EMAIL]
+       [dbo].[GESTOR_TELEFONES]
+       [dbo].[GRUPOPAGINAS]
+       [dbo].[GRUPOUSUARIO_PAGINAS]
+       [dbo].[GRUPOUSUARIOS]
+       [dbo].[IDENTITYSERVER_CLIENTS]
+       [dbo].[IDENTITYSERVER_CLIENTS_CLAIM]
+       [dbo].[IDENTITYSERVER_CLIENTS_SCOPES]
+       [dbo].[LOG_ATIVIDADE]
+       [dbo].[MOTIVO_BLACKLIST]
+       [dbo].[OPERADORA]
+       [dbo].[PADRAO_POSTAGENS]
+       [dbo].[PAGINAS]
+       [dbo].[PORTABILIDADE]
+       [dbo].[PREFIXOS]
+       [dbo].[RATINHOS]
+       [dbo].[REJEITADAS_ANTERIORES]
+       [dbo].[REQUISICAO_RELATORIO]
+       [dbo].[REQUISICAO_RELATORIO_CARTEIRAS]
+       [dbo].[REQUISICAO_RELATORIO_EMAILS]
+       [dbo].[RETORNO_CONSOLIDADO]
+       [dbo].[RETORNO_INTERJEICAO]
+       [dbo].[SEGMENTACAO]
+       [dbo].[SESSION_ITENS]
+       [dbo].[TIPOCAMPANHA]
+       [dbo].[UFDDD]
+       [dbo].[USUARIOS]
+       [dbo].[USUARIOS_CARTEIRA]
+       [dbo].[HIGIENIZACAO_CELL]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[CAMPANHAS].[DDD] is being dropped, data loss could occur.
+       The column [dbo].[CAMPANHAS_CONSOLIDADO].[ENVIADAS] is being dropped, data loss could occur.
+       The column [dbo].[CAMPANHAS_CONSOLIDADO].[NAOENVIADAS] is being dropped, data loss could occur.
+
+** User actions
+     Table rebuild
+       [dbo].[BOLETOLANDING] (Table)
+       [dbo].[CAMPANHA_RETORNO] (Table)
+       [dbo].[CAMPANHAS] (Table)
+       [dbo].[CAMPANHAS_ARQUIVOS] (Table)
+       [dbo].[CAMPANHAS_ARQUIVOS_FILESZIP] (Table)
+       [dbo].[CAMPANHAS_CONSOLIDADO] (Table)
+       [dbo].[CARTEIRA_TELEFONES] (Table)
+       [dbo].[CARTEIRAS] (Table)
+       [dbo].[CELULAR_BLACKLIST] (Table)
+       [dbo].[CELULARES_INVALIDOS] (Table)
+       [dbo].[CELULARES_INVALIDOS_CONSOLIDADO] (Table)
+       [dbo].[CLIENTES] (Table)
+       [dbo].[CLIENTES_CONFIGURACAO] (Table)
+       [dbo].[CLIENTES_CONTATO] (Table)
+       [dbo].[FILECARDS] (Table)
+       [dbo].[FORNECEDOR] (Table)
+       [dbo].[FORNECEDOR_CAPACIDADE] (Table)
+       [dbo].[FORNECEDOR_CLIENTE] (Table)
+       [dbo].[FORNECEDOR_CONTATO] (Table)
+       [dbo].[FORNECEDOR_FAIXAS] (Table)
+       [dbo].[GESTOR] (Table)
+       [dbo].[GESTOR_CARTEIRAS] (Table)
+       [dbo].[GESTOR_EMAIL] (Table)
+       [dbo].[GESTOR_TELEFONES] (Table)
+       [dbo].[GRUPOPAGINAS] (Table)
+       [dbo].[GRUPOUSUARIO_PAGINAS] (Table)
+       [dbo].[GRUPOUSUARIOS] (Table)
+       [dbo].[IDENTITYSERVER_CLIENTS] (Table)
+       [dbo].[IDENTITYSERVER_CLIENTS_CLAIM] (Table)
+       [dbo].[IDENTITYSERVER_CLIENTS_SCOPES] (Table)
+       [dbo].[LOG_ATIVIDADE] (Table)
+       [dbo].[MOTIVO_BLACKLIST] (Table)
+       [dbo].[OPERADORA] (Table)
+       [dbo].[PADRAO_POSTAGENS] (Table)
+       [dbo].[PAGINAS] (Table)
+       [dbo].[PORTABILIDADE] (Table)
+       [dbo].[PREFIXOS] (Table)
+       [dbo].[RATINHOS] (Table)
+       [dbo].[REJEITADAS_ANTERIORES] (Table)
+       [dbo].[REQUISICAO_RELATORIO] (Table)
+       [dbo].[REQUISICAO_RELATORIO_CARTEIRAS] (Table)
+       [dbo].[REQUISICAO_RELATORIO_EMAILS] (Table)
+       [dbo].[RETORNO_CONSOLIDADO] (Table)
+       [dbo].[RETORNO_INTERJEICAO] (Table)
+       [dbo].[SEGMENTACAO] (Table)
+       [dbo].[SESSION_ITENS] (Table)
+       [dbo].[TIPOCAMPANHA] (Table)
+       [dbo].[UFDDD] (Table)
+       [dbo].[USUARIOS] (Table)
+       [dbo].[USUARIOS_CARTEIRA] (Table)
+       [dbo].[HIGIENIZACAO_CELL] (Table)
+     Create
+       [dbo].[CAMPANHAS].[ix_CAMPANHAS_CELULAR_includes] (Index)
+       [dbo].[CAMPANHAS].[IX_CAMPANHAS_MONITORIA_filtered] (Index)
+       [dbo].[CAMPANHAS].[IX_CAMPANHAS_UPDATES] (Index)
+       [dbo].[CAMPANHAS].[IX_CAMPANHAS_STATUSCAMPANHAS] (Index)
+       [dbo].[CAMPANHAS].[IX_CAMPANHAS_RELATORIO_DETALHADO] (Index)
+       [dbo].[CAMPANHAS].[IX_CAMPANHA_PENDENTE] (Index)
+       [dbo].[CAMPANHAS_ARQUIVOS].[IX_CAMPANHAS_ARQUIVOS_ARQUIVO_CLIENTEID] (Index)
+       [dbo].[CAMPANHAS_ARQUIVOS_FILESZIP].[IX_CAMPANHAS_ARQUIVOS_FILESZIP_ARQUIVO] (Index)
+       [dbo].[CARTEIRA_TELEFONES].[IX_CARTEIRA_TELEFONE] (Index)
+       [dbo].[CARTEIRAS].[IX_GESTOR_CARTEIRA] (Index)
+       [dbo].[CELULAR_BLACKLIST].[IX_CELULAR_BLACKLIST] (Index)
+       [dbo].[CELULARES_INVALIDOS].[CELULARES_INVALIDOS_Includes] (Index)
+       [dbo].[CLIENTES].[IX_CLIENTES] (Index)
+       [dbo].[FORNECEDOR].[IX_FORNECEDOR_CPFCNPJ] (Index)
+       [dbo].[FORNECEDOR_CLIENTE].[IX_CLIENTES_FORNECEDOR] (Index)
+       [dbo].[GESTOR].[IX_GESTOR_NOME] (Index)
+       [dbo].[GESTOR_CARTEIRAS].[IX_GESTOR_CARTEIRAS] (Index)
+       [dbo].[GESTOR_EMAIL].[IX_GESTOR_EMAIL] (Index)
+       [dbo].[GESTOR_TELEFONES].[IX_GESTOR_TELEFONES] (Index)
+       [dbo].[GRUPOUSUARIOS].[IX_GRUPOUSUARIOS_NOME] (Index)
+       [dbo].[IDENTITYSERVER_CLIENTS].[IX_IDENTITYSERVER_CLIENTS_CLIENTEID] (Index)
+       [dbo].[IDENTITYSERVER_CLIENTS_SCOPES].[IX_IDENTITYSERVER_CLIENTS_SCOPES_TOKEN] (Index)
+       [dbo].[IDENTITYSERVER_CLIENTS_SCOPES].[IX_IDENTITYSERVER_CLIENTS_SCOPES_TOKEN_Includes] (Index)
+       [dbo].[MOTIVO_BLACKLIST].[IX_MOTIVO_BLACKLIST] (Index)
+       [dbo].[PADRAO_POSTAGENS].[IX_PADRAO_POSTAGENS] (Index)
+       [dbo].[PORTABILIDADE].[IX_PORTABILIDADE_NUMERO] (Index)
+       [dbo].[PREFIXOS].[IX_PREFIXOS] (Index)
+       [dbo].[REJEITADAS_ANTERIORES].[IX_REJEITADAS_ANTERIORES_CELULAR_Includes] (Index)
+       [dbo].[RETORNO_INTERJEICAO].[IX_RETORNO_INTERJEICAO] (Index)
+       [dbo].[SEGMENTACAO].[IX_SEGMENTACAO] (Index)
+       [dbo].[SESSION_ITENS].[IX_SESSION_ITENS_KEY_GUID] (Index)
+       [dbo].[TIPOCAMPANHA].[IX_TIPOCAMPANHA] (Index)
+       [dbo].[USUARIOS].[IX_USUARIOS_EMAIL] (Index)
+       [dbo].[USUARIOS].[IX_USUARIOS_LOGINUSER] (Index)
+       [dbo].[USUARIOS_CARTEIRA].[IX_USUARIOS_CARTEIRA] (Index)
+       [dbo].[FK_CAMPANHAS_CARTEIRAS] (Foreign Key)
+       [dbo].[FK_CAMPANHAS_ARQUIVOS] (Foreign Key)
+       [dbo].[FK_CAMPANHAS_CLIENTES] (Foreign Key)
+       [dbo].[FK_CAMPANHAS_USUARIOS] (Foreign Key)
+       [dbo].[FK_CAMPANHAS_FORNECEDOR] (Foreign Key)
+       [dbo].[FK_CAMPANHAS_ARQUIVOS_FILESZIP_CAMPANHAS_ARQUIVOS] (Foreign Key)
+       [dbo].[FK_CAMPANHAS_CONSOLIDADOS_CARTEIRAS] (Foreign Key)
+       [dbo].[FK_CAMPANHAS_CONSOLIDADOS_ARQUIVOS] (Foreign Key)
+       [dbo].[FK_CAMPANHAS_CONSOLIDADOS_USUARIO] (Foreign Key)
+       [dbo].[FK_CARTEIRA_TELEFONES_CARTEIRA] (Foreign Key)
+       [dbo].[FK_CLIENTES_CONFIGURACAO_CLIENTES] (Foreign Key)
+       [dbo].[FK_CLIENTES_CONTATO_CLIENTES] (Foreign Key)
+       [dbo].[FK_FORNECEDOR_CAPACIDADE_FORNECEDOR] (Foreign Key)
+       [dbo].[FK_FORNECEDOR_CLIENTE_FORNECEDOR] (Foreign Key)
+       [dbo].[FK_FORNECEDOR_CLIENTE_CLIENTES] (Foreign Key)
+       [dbo].[FK_FORNECEDOR_CONTATO_FORNECEDOR] (Foreign Key)
+       [dbo].[FK_FORNECEDOR_FAIXAS_FORNECEDOR] (Foreign Key)
+       [dbo].[FK_GESTOR_CARTEIRAS_GESTOR] (Foreign Key)
+       [dbo].[FK_GESTOR_EMAIL_GESTOR] (Foreign Key)
+       [dbo].[FK_GESTOR_TELEFONES_GESTOR] (Foreign Key)
+       [dbo].[FK_GRUPOUSUARIO_PAGINAS_GRUPOUSUARIO] (Foreign Key)
+       [dbo].[FK_IDENTITYSERVER_CLIENTS_CLAIM_IDENTITYSERVER_CLIENTS] (Foreign Key)
+       [dbo].[FK_IDENTITYSERVER_CLIENTS_SCOPES_IDENTITYSERVER_CLIENTS] (Foreign Key)
+       [dbo].[FK_PADRAO_POSTAGENS_CARTEIRAS] (Foreign Key)
+       [dbo].[FK_REQUISICAO_RELATORIO_CARTEIRAS_REQUSICAO_RELATORIO] (Foreign Key)
+       [dbo].[FK_REQUISICAO_RELATORIO_CARTEIRAS_CARTEIRAS] (Foreign Key)
+       [dbo].[FK_REQUISICAO_RELATORIO_EMAILS_REQUISICAO_RELATORIO] (Foreign Key)
+       [dbo].[FK_USUARIOS_GRUPOUSUARIOS] (Foreign Key)
+       [dbo].[CK_GRUPOUSUARIOS_SALDO] (Check Constraint)
+       [dbo].[CK_GRUPOUSUARIOS_COTA] (Check Constraint)
+       [dbo].[CommaSeparatedListToSingleColumn] (Function)
+       [dbo].[GESTORESSMS] (View)
+       [dbo].[PAGINA_GRUPO] (View)
+       [dbo].[CAMPANHA_CONSOLIDADO_ENVIOS_PAGINACAO] (Procedure)
+       [dbo].[CAMPANHA_RETORNO_PAGINACAO] (Procedure)
+       [dbo].[CONSOLIDADO_CAMPANHAS_AGENDADA] (Procedure)
+       [dbo].[CONSOLIDADO_STATUS_PAGINACAO] (Procedure)
+       [dbo].[HIGIENIZA] (Procedure)
+
+** Supporting actions
+
+The column [dbo].[CAMPANHAS].[DDD] is being dropped, data loss could occur.
+The column [dbo].[CAMPANHAS_CONSOLIDADO].[ENVIADAS] is being dropped, data loss could occur.
+The column [dbo].[CAMPANHAS_CONSOLIDADO].[NAOENVIADAS] is being dropped, data loss could occur.
+

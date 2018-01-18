@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <Name>DBModelling</Name>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>4.1</ProjectVersion>
+    <ProjectGuid>{4423d1a5-5e92-4651-ae61-d9f36f34f49b}</ProjectGuid>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
+    <OutputType>Database</OutputType>
+    <RootPath>
+    </RootPath>
+    <RootNamespace>DBModelling</RootNamespace>
+    <AssemblyName>DBModelling</AssemblyName>
+    <ModelCollation>1033,CI</ModelCollation>
+    <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
+    <DeployToDatabase>True</DeployToDatabase>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <TargetLanguage>CS</TargetLanguage>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <SqlServerVerification>False</SqlServerVerification>
+    <IncludeCompositeObjects>True</IncludeCompositeObjects>
+    <TargetDatabaseSet>True</TargetDatabaseSet>
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+    <DefaultCollation>SQL_Latin1_General_CP1_CI_AS</DefaultCollation>
+    <DefaultFilegroup>PRIMARY</DefaultFilegroup>
+    <AnsiNulls>False</AnsiNulls>
+    <QuotedIdentifier>False</QuotedIdentifier>
+    <Containment>None</Containment>
+    <IsNestedTriggersOn>True</IsNestedTriggersOn>
+    <IsTransformNoiseWordsOn>False</IsTransformNoiseWordsOn>
+    <TwoDigitYearCutoff>2049</TwoDigitYearCutoff>
+    <NonTransactedFileStreamAccess>OFF</NonTransactedFileStreamAccess>
+    <TargetRecoveryTimePeriod>0</TargetRecoveryTimePeriod>
+    <TargetRecoveryTimeUnit>SECONDS</TargetRecoveryTimeUnit>
+    <IsChangeTrackingOn>False</IsChangeTrackingOn>
+    <IsChangeTrackingAutoCleanupOn>True</IsChangeTrackingAutoCleanupOn>
+    <ChangeTrackingRetentionPeriod>2</ChangeTrackingRetentionPeriod>
+    <ChangeTrackingRetentionUnit>Days</ChangeTrackingRetentionUnit>
+    <IsEncryptionOn>False</IsEncryptionOn>
+    <IsBrokerPriorityHonored>False</IsBrokerPriorityHonored>
+    <Trustworthy>False</Trustworthy>
+    <AutoUpdateStatisticsAsynchronously>False</AutoUpdateStatisticsAsynchronously>
+    <PageVerify>CHECKSUM</PageVerify>
+    <ServiceBrokerOption>EnableBroker</ServiceBrokerOption>
+    <DateCorrelationOptimizationOn>False</DateCorrelationOptimizationOn>
+    <Parameterization>SIMPLE</Parameterization>
+    <AllowSnapshotIsolation>False</AllowSnapshotIsolation>
+    <ReadCommittedSnapshot>True</ReadCommittedSnapshot>
+    <VardecimalStorageFormatOn>True</VardecimalStorageFormatOn>
+    <SupplementalLoggingOn>False</SupplementalLoggingOn>
+    <CompatibilityMode>130</CompatibilityMode>
+    <AnsiNullDefault>False</AnsiNullDefault>
+    <AnsiPadding>False</AnsiPadding>
+    <AnsiWarnings>False</AnsiWarnings>
+    <ArithAbort>False</ArithAbort>
+    <ConcatNullYieldsNull>False</ConcatNullYieldsNull>
+    <NumericRoundAbort>False</NumericRoundAbort>
+    <RecursiveTriggersEnabled>False</RecursiveTriggersEnabled>
+    <DatabaseChaining>False</DatabaseChaining>
+    <DatabaseState>ONLINE</DatabaseState>
+    <CloseCursorOnCommitEnabled>False</CloseCursorOnCommitEnabled>
+    <DefaultCursor>GLOBAL</DefaultCursor>
+    <AutoClose>False</AutoClose>
+    <AutoCreateStatistics>True</AutoCreateStatistics>
+    <AutoShrink>False</AutoShrink>
+    <AutoUpdateStatistics>True</AutoUpdateStatistics>
+    <TornPageDetection>False</TornPageDetection>
+    <DatabaseAccess>MULTI_USER</DatabaseAccess>
+    <Recovery>FULL</Recovery>
+    <EnableFullTextSearch>True</EnableFullTextSearch>
+    <IncludeSchemaNameInFileName>True</IncludeSchemaNameInFileName>
+    <TargetDatabase>DBModelling</TargetDatabase>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <!-- Default to the v11.0 targets path if the targets file for the current VS version is not found -->
+    <SSDTExists Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets')">True</SSDTExists>
+    <VisualStudioVersion Condition="'$(SSDTExists)' == ''">11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <Import Condition="'$(SQLDBExtensionsRefPath)' != ''" Project="$(SQLDBExtensionsRefPath)\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <ItemGroup>
+    <Folder Include="Properties" />
+    <Folder Include="Snapshots" />
+    <Folder Include="dbo\" />
+    <Folder Include="dbo\Tables\" />
+    <Folder Include="Storage\" />
+    <Folder Include="Security\" />
+    <Folder Include="sp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Snapshots\MoneoCIDBModelling_20160927_08-57-04.dacpac" />
+    <None Include="Snapshots\MoneoCIDBModelling_20161019_15-23-06.dacpac" />
+    <None Include="Snapshots\MoneoCIDBModelling_20170302_17-47-53.dacpac" />
+    <None Include="CONSOLIDADOS_CARGA.sql" />
+    <None Include="CONSOLIDADO RETORNOS.sql" />
+    <None Include="MoneoCIDBModelling.publish.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="dbo\Tables\CAMPANHA_RETORNO.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Tables\CARTEIRAS.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Tables\CELULAR_BLACKLIST.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Tables\CELULARES_INVALIDOS.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Tables\CLIENTES.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Tables\CLIENTES_CONTATO.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Tables\FORNECEDOR.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Tables\FORNECEDOR_CAPACIDADE.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Tables\FORNECEDOR_CONTATO.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Tables\FORNECEDOR_FAIXAS.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Tables\GESTOR.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Tables\GESTOR_CARTEIRAS.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Tables\GESTOR_EMAIL.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Tables\GESTOR_TELEFONES.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Tables\MOTIVO_BLACKLIST.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Tables\OPERADORA.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Tables\PORTABILIDADE.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Tables\PREFIXOS.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Tables\SEGMENTACAO.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Tables\TIPOCAMPANHA.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Tables\USUARIOS.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Tables\USUARIOS_CARTEIRA.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Tables\CAMPANHAS.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Tables\HIGIENIZACAO_CELL.sql" />
+    <Build Include="dbo\Tables\PADRAO_POSTAGENS.sql" />
+    <Build Include="GESTORESSMS.sql" />
+    <Build Include="dbo\Tables\CAMPANHAS_ARQUIVOS.sql" />
+    <Build Include="CommaSeparatedListToSingleColumn.sql" />
+    <Build Include="dbo\Tables\CAMPANHAS_CONSOLIDADO.sql" />
+    <Build Include="dbo\Tables\GRUPOUSUARIOS.sql" />
+    <Build Include="dbo\Tables\PAGINAS.sql" />
+    <Build Include="dbo\Tables\GRUPOPAGINAS.sql" />
+    <Build Include="dbo\Tables\GRUPOUSUARIO_PAGINAS.sql" />
+    <Build Include="PAGINA_GRUPO.sql" />
+    <Build Include="SALDO.sql" />
+    <Build Include="dbo\Tables\FORNECEDOR_CLIENTE.sql" />
+    <Build Include="dbo\Tables\CARTEIRA_TELEFONES.sql" />
+    <Build Include="dbo\Tables\CLIENTES_CONFIGURACAO.sql" />
+    <Build Include="dbo\Tables\LOG_ATIVIDADE.sql" />
+    <Build Include="dbo\Tables\RETORNO_INTERJEICAO.sql" />
+    <Build Include="dbo\Tables\RATINHOS.sql" />
+    <Build Include="dbo\Tables\RETORNO_CONSOLIDADO.sql" />
+    <Build Include="dbo\Tables\CELULARES_INVALIDOS_CONSOLIDADO.sql" />
+    <Build Include="sp\CAMPANHA_RETORNO_PAGINACAO.sql" />
+    <Build Include="sp\CONSOLIDADO_STATUS_PAGINACAO.sql" />
+    <Build Include="sp\CAMPANHA_CONSOLIDADO_ENVIOS_PAGINACAO.sql" />
+    <Build Include="dbo\Tables\REQUISICAO_RELATORIO.sql" />
+    <Build Include="dbo\Tables\REQUISICAO_RELATORIO_CARTEIRAS.sql" />
+    <Build Include="dbo\Tables\REQUISICAO_RELATORIO_EMAILS.sql" />
+    <Build Include="dbo\Tables\UFDDD.sql" />
+    <Build Include="sp\HIGIENIZA.sql" />
+    <Build Include="dbo\Tables\BOLETOLANDING.sql" />
+    <Build Include="dbo\Tables\IDENTITYSERVER_CLIENTS.sql" />
+    <Build Include="dbo\Tables\IDENTITYSERVER_CLIENTS_CLAIM.sql" />
+    <Build Include="dbo\Tables\IDENTITYSERVER_CLIENTS_SCOPES.sql" />
+    <Build Include="dbo\Tables\REJEITADAS_ANTERIORES.sql" />
+    <Build Include="sp\CONSOLIDADO_CAMPANHAS_AGENDADA.sql" />
+    <Build Include="dbo\Tables\CAMPANHAS_ARQUIVOS_FILESZIP.sql" />
+    <Build Include="dbo\Tables\FILECARDS.sql" />
+    <Build Include="dbo\Tables\SESSION_ITENS.sql" />
+    <Build Include="dbo.FORNECEDORES_CLIENTE.sql" />
+    <Build Include="sp\dbo.ATUALIZAGRUPOUSUARIOS.sql" />
+    <Build Include="dbo\Tables\SUBPAGINAS.sql" />
+    <Build Include="dbo\Tables\LAYOUT_VARIAVEIS.sql" />
+    <Build Include="dbo\Tables\LAYOUT.sql" />
+    <Build Include="dbo.LEIAUTE_TRIGGER.sql" />
+    <Build Include="dbo\Tables\CONTATOS_FORNECEDOR.sql" />
+    <Build Include="dbo\Tables\USERS_RESETPASSWORD.sql" />
+    <Build Include="dbo\Tables\FORNECEDOR_PRECOS.sql" />
+    <Build Include="dbo\Tables\FORNECEDOR_CAMPANHAS.sql" />
+    <Build Include="dbo\Tables\RETORNO_CLASSIFICACAO.sql" />
+    <Build Include="dbo\Tables\FORNECEDOR_CAPACIDADE_EXTRA.sql" />
+    <Build Include="dbo\Tables\FORNECEDOR_CLIENTE_OCORRENCIAS.sql" />
+    <Build Include="dbo\Tables\RATINHOS_RECEBIMENTO.sql" />
+    <Build Include="dbo\Tables\CAMPANHA_ERRO_API.sql" />
+    <Build Include="dbo\Tables\FORNECEDOR_SERVICO.sql" />
+    <Build Include="dbo\Tables\OCORRENCIAS.sql" />
+    <Build Include="dbo\Tables\dbo.AspNeRoleClaims.sql" />
+    <Build Include="dbo\Tables\dbo.AspNetRoles.sql" />
+    <Build Include="dbo\Tables\dbo.AspNetUserClaims.sql" />
+    <Build Include="dbo\Tables\dbo.AspNetUserLogins.sql" />
+    <Build Include="dbo\Tables\dbo.AspNetUserRoles.sql" />
+    <Build Include="dbo\Tables\dbo.AspNetUsers.sql" />
+    <Build Include="dbo\Tables\dbo.AspNetUserTokens.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="MoneoCIDBModelling.refactorlog" />
+  </ItemGroup>
+</Project>

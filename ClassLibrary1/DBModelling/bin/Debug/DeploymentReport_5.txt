@@ -1,0 +1,32 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Drop
+       unnamed constraint on [dbo].[USUARIOS] (Default Constraint)
+     Alter
+       [dbo].[CAMPANHAS] (Table)
+       [dbo].[CAMPANHAS_CONSOLIDADO] (Table)
+       [dbo].[USUARIOS] (Table)
+
+** Supporting actions
+     Create
+       Default Constraint: unnamed constraint on [dbo].[USUARIOS] (Default Constraint)
+     Refresh
+       [dbo].[HIGIENIZA] (Procedure)
+       [dbo].[CAMPANHA_RETORNO_PAGINACAO] (Procedure)
+       [dbo].[CONSOLIDADO_STATUS_PAGINACAO] (Procedure)
+       [dbo].[CAMPANHA_CONSOLIDADO_ENVIOS_PAGINACAO] (Procedure)
+
+The object [moneoci] already exists in database with a different definition and will not be altered.
+If this deployment is executed, changes to [dbo].[CAMPANHAS_CONSOLIDADO] might introduce run-time errors in [dbo].[CONSOLIDADO_ESPECIALIZADO_PAGINACAO].
+If this deployment is executed, changes to [dbo].[USUARIOS] might introduce run-time errors in [dbo].[ATUALIZAGRUPOUSUARIOS].
+If this deployment is executed, changes to [dbo].[USUARIOS] might introduce run-time errors in [dbo].[CONSOLIDADO_ESPECIALIZADO_PAGINACAO].
+

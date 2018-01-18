@@ -1,0 +1,16 @@
+D:\Projetos\MCICore\ClassLibrary1\MoneoCI\obj\Debug\netcoreapp2.0\MoneoCI.csprojResolveAssemblyReference.cache
+D:\Projetos\MCICore\ClassLibrary1\MoneoCI\obj\Debug\netcoreapp2.0\MoneoCI.csproj.CoreCompileInputs.cache
+D:\Projetos\MCICore\ClassLibrary1\MoneoCI\obj\Debug\netcoreapp2.0\MoneoCI.AssemblyInfoInputs.cache
+D:\Projetos\MCICore\ClassLibrary1\MoneoCI\obj\Debug\netcoreapp2.0\MoneoCI.AssemblyInfo.cs
+D:\Projetos\MCICore\ClassLibrary1\MoneoCI\bin\Debug\netcoreapp2.0\MoneoCI.dll.config
+D:\Projetos\MCICore\ClassLibrary1\MoneoCI\bin\Debug\netcoreapp2.0\MoneoCI.deps.json
+D:\Projetos\MCICore\ClassLibrary1\MoneoCI\bin\Debug\netcoreapp2.0\MoneoCI.runtimeconfig.json
+D:\Projetos\MCICore\ClassLibrary1\MoneoCI\bin\Debug\netcoreapp2.0\MoneoCI.runtimeconfig.dev.json
+D:\Projetos\MCICore\ClassLibrary1\MoneoCI\bin\Debug\netcoreapp2.0\MoneoCI.dll
+D:\Projetos\MCICore\ClassLibrary1\MoneoCI\bin\Debug\netcoreapp2.0\MoneoCI.pdb
+D:\Projetos\MCICore\ClassLibrary1\MoneoCI\bin\Debug\netcoreapp2.0\DAL.dll
+D:\Projetos\MCICore\ClassLibrary1\MoneoCI\bin\Debug\netcoreapp2.0\Model.dll
+D:\Projetos\MCICore\ClassLibrary1\MoneoCI\bin\Debug\netcoreapp2.0\DAL.pdb
+D:\Projetos\MCICore\ClassLibrary1\MoneoCI\bin\Debug\netcoreapp2.0\Model.pdb
+D:\Projetos\MCICore\ClassLibrary1\MoneoCI\obj\Debug\netcoreapp2.0\MoneoCI.dll
+D:\Projetos\MCICore\ClassLibrary1\MoneoCI\obj\Debug\netcoreapp2.0\MoneoCI.pdb

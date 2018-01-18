@@ -1,0 +1,25 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[RATINHOS]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[RATINHOS].[NUMERO] is being dropped, data loss could occur.
+
+** User actions
+     Alter
+       [dbo].[CAMPANHAS] (Table)
+     Table rebuild
+       [dbo].[RATINHOS] (Table)
+
+** Supporting actions
+     Refresh
+       [dbo].[HIGIENIZA] (Procedure)
+       [dbo].[CAMPANHA_RETORNO_PAGINACAO] (Procedure)
+       [dbo].[CONSOLIDADO_CAMPANHAS_AGENDADA] (Procedure)
+       [dbo].[CONSOLIDADO_STATUS_PAGINACAO] (Procedure)
+
+The column [dbo].[RATINHOS].[NUMERO] is being dropped, data loss could occur.
+

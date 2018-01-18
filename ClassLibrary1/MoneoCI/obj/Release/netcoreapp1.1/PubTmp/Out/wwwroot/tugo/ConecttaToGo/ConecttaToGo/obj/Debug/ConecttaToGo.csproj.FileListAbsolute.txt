@@ -1,0 +1,10 @@
+d:\Git\ConecttaToGo\ConecttaToGo\bin\Debug\ConecttaToGo.exe.config
+d:\Git\ConecttaToGo\ConecttaToGo\bin\Debug\ConecttaToGo.exe
+d:\Git\ConecttaToGo\ConecttaToGo\bin\Debug\ConecttaToGo.pdb
+d:\Git\ConecttaToGo\ConecttaToGo\obj\Debug\ConecttaToGo.csprojResolveAssemblyReference.cache
+d:\Git\ConecttaToGo\ConecttaToGo\obj\Debug\ConecttaToGo.exe
+d:\Git\ConecttaToGo\ConecttaToGo\obj\Debug\ConecttaToGo.pdb
+d:\Git\ConecttaToGo\ConecttaToGo\bin\Debug\Newtonsoft.Json.dll
+d:\Git\ConecttaToGo\ConecttaToGo\bin\Debug\Newtonsoft.Json.xml
+d:\Git\ConecttaToGo\ConecttaToGo\bin\Debug\websocket-sharp.dll
+d:\Git\ConecttaToGo\ConecttaToGo\bin\Debug\websocket-sharp.xml

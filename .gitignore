@@ -3,3 +3,5 @@
 ################################################################################
 
 /ClassLibrary1/.vs/MCICore/v15/Server/sqlite3
+/ClassLibrary1/DBModelling/DBModelling.dbmdl
+/ClassLibrary1/DBModelling/DBModelling.jfm

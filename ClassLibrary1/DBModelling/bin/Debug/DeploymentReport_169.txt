@@ -1,0 +1,39 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[AspNetUserRoles]
+       [dbo].[AspNetUserTokens]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The type for column UserId in table [dbo].[AspNetUserRoles] is currently  NVARCHAR (900) NOT NULL but is being changed
+         to  NVARCHAR (450) NOT NULL. Data loss could occur.
+       The type for column LoginProvider in table [dbo].[AspNetUserTokens] is currently  NVARCHAR (900) NOT NULL but is being
+         changed to  NVARCHAR (450) NOT NULL. Data loss could occur.
+       The type for column Name in table [dbo].[AspNetUserTokens] is currently  NVARCHAR (900) NOT NULL but is being changed to
+          NVARCHAR (450) NOT NULL. Data loss could occur.
+       The type for column UserId in table [dbo].[AspNetUserTokens] is currently  NVARCHAR (900) NOT NULL but is being changed
+         to  NVARCHAR (450) NOT NULL. Data loss could occur.
+
+** User actions
+     Table rebuild
+       [dbo].[AspNetUserRoles] (Table)
+       [dbo].[AspNetUserTokens] (Table)
+     Alter
+       [dbo].[CAMPANHAS] (Table)
+     Create
+       [dbo].[CLIENTES].[IX_CLIENTES] (Index)
+
+** Supporting actions
+     Refresh
+       [dbo].[HIGIENIZA] (Procedure)
+       [dbo].[CAMPANHA_RETORNO_PAGINACAO] (Procedure)
+       [dbo].[CONSOLIDADO_CAMPANHAS_AGENDADA] (Procedure)
+       [dbo].[CONSOLIDADO_STATUS_PAGINACAO] (Procedure)
+
+The type for column UserId in table [dbo].[AspNetUserRoles] is currently  NVARCHAR (900) NOT NULL but is being changed to  NVARCHAR (450) NOT NULL. Data loss could occur.
+The type for column LoginProvider in table [dbo].[AspNetUserTokens] is currently  NVARCHAR (900) NOT NULL but is being changed to  NVARCHAR (450) NOT NULL. Data loss could occur.
+The type for column Name in table [dbo].[AspNetUserTokens] is currently  NVARCHAR (900) NOT NULL but is being changed to  NVARCHAR (450) NOT NULL. Data loss could occur.
+The type for column UserId in table [dbo].[AspNetUserTokens] is currently  NVARCHAR (900) NOT NULL but is being changed to  NVARCHAR (450) NOT NULL. Data loss could occur.
+

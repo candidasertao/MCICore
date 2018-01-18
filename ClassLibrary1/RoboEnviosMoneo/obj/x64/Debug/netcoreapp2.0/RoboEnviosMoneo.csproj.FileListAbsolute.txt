@@ -1,0 +1,15 @@
+D:\Projetos\MCI\src\RoboEnviosMoneo\bin\x64\Debug\netcoreapp2.0\RoboEnviosMoneo.deps.json
+D:\Projetos\MCI\src\RoboEnviosMoneo\bin\x64\Debug\netcoreapp2.0\RoboEnviosMoneo.runtimeconfig.json
+D:\Projetos\MCI\src\RoboEnviosMoneo\bin\x64\Debug\netcoreapp2.0\RoboEnviosMoneo.runtimeconfig.dev.json
+D:\Projetos\MCI\src\RoboEnviosMoneo\bin\x64\Debug\netcoreapp2.0\RoboEnviosMoneo.dll
+D:\Projetos\MCI\src\RoboEnviosMoneo\bin\x64\Debug\netcoreapp2.0\RoboEnviosMoneo.pdb
+D:\Projetos\MCI\src\RoboEnviosMoneo\bin\x64\Debug\netcoreapp2.0\ConecttaManagerData.dll
+D:\Projetos\MCI\src\RoboEnviosMoneo\bin\x64\Debug\netcoreapp2.0\MoneoCIModel.dll
+D:\Projetos\MCI\src\RoboEnviosMoneo\bin\x64\Debug\netcoreapp2.0\ConecttaManagerData.pdb
+D:\Projetos\MCI\src\RoboEnviosMoneo\bin\x64\Debug\netcoreapp2.0\MoneoCIModel.pdb
+D:\Projetos\MCI\src\RoboEnviosMoneo\obj\x64\Debug\netcoreapp2.0\RoboEnviosMoneo.csprojResolveAssemblyReference.cache
+D:\Projetos\MCI\src\RoboEnviosMoneo\obj\x64\Debug\netcoreapp2.0\RoboEnviosMoneo.csproj.CoreCompileInputs.cache
+D:\Projetos\MCI\src\RoboEnviosMoneo\obj\x64\Debug\netcoreapp2.0\RoboEnviosMoneo.AssemblyInfoInputs.cache
+D:\Projetos\MCI\src\RoboEnviosMoneo\obj\x64\Debug\netcoreapp2.0\RoboEnviosMoneo.AssemblyInfo.cs
+D:\Projetos\MCI\src\RoboEnviosMoneo\obj\x64\Debug\netcoreapp2.0\RoboEnviosMoneo.dll
+D:\Projetos\MCI\src\RoboEnviosMoneo\obj\x64\Debug\netcoreapp2.0\RoboEnviosMoneo.pdb

@@ -1,0 +1,37 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Alter
+       [dbo].[CAMPANHAS] (Table)
+       [dbo].[CAMPANHAS_CONSOLIDADO] (Table)
+
+** Supporting actions
+     Drop
+       [dbo].[CAMPANHAS].[IX_CAMPANHAS_MONITORIA_filtered] (Index)
+       [dbo].[CAMPANHAS].[IX_CAMPANHAS_UPDATES] (Index)
+       [dbo].[CAMPANHAS].[IX_CAMPANHAS_STATUSCAMPANHAS] (Index)
+       [dbo].[CAMPANHAS].[IX_CAMPANHAS_RELATORIO_DETALHADO] (Index)
+       [dbo].[FK_CAMPANHAS_CARTEIRAS] (Foreign Key)
+     Create
+       [dbo].[CAMPANHAS].[IX_CAMPANHAS_MONITORIA_filtered] (Index)
+       [dbo].[CAMPANHAS].[IX_CAMPANHAS_UPDATES] (Index)
+       [dbo].[CAMPANHAS].[IX_CAMPANHAS_STATUSCAMPANHAS] (Index)
+       [dbo].[CAMPANHAS].[IX_CAMPANHAS_RELATORIO_DETALHADO] (Index)
+       [dbo].[FK_CAMPANHAS_CARTEIRAS] (Foreign Key)
+     Refresh
+       [dbo].[HIGIENIZA] (Procedure)
+       [dbo].[CAMPANHA_RETORNO_PAGINACAO] (Procedure)
+       [dbo].[CONSOLIDADO_CAMPANHAS_AGENDADA] (Procedure)
+       [dbo].[CONSOLIDADO_STATUS_PAGINACAO] (Procedure)
+       [dbo].[CAMPANHA_CONSOLIDADO_ENVIOS_PAGINACAO] (Procedure)
+
+The column CARTEIRAID on table [dbo].[CAMPANHAS] must be changed from NULL to NOT NULL. If the table contains data, the ALTER script may not work. To avoid this issue, you must add values to this column for all rows or mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+

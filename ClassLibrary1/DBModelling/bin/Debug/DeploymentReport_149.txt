@@ -1,0 +1,27 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Alter
+       [dbo].[CAMPANHA_RETORNO] (Table)
+       [dbo].[CAMPANHAS] (Table)
+     Create
+       [dbo].[FK_CAMPANHA_RETORNO_ToTable] (Foreign Key)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_CAMPANHA_RETORNO_RETORNO_CLASSIFICACAO] (Foreign Key)
+     Create
+       [dbo].[FK_CAMPANHA_RETORNO_RETORNO_CLASSIFICACAO] (Foreign Key)
+     Refresh
+       [dbo].[CAMPANHA_RETORNO_PAGINACAO] (Procedure)
+       [dbo].[CONSOLIDADO_CAMPANHAS_AGENDADA] (Procedure)
+       [dbo].[HIGIENIZA] (Procedure)
+       [dbo].[CONSOLIDADO_STATUS_PAGINACAO] (Procedure)

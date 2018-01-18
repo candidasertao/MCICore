@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "MoneoTaskManager": {
+      "commandName": "Project",
+      "commandLineArgs": "/PORTABILIDADE"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[FORNECEDOR_CLIENTE]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Drop
+       unnamed constraint on [dbo].[FORNECEDOR_CLIENTE] (Default Constraint)
+       unnamed constraint on [dbo].[FORNECEDOR_CLIENTE] (Default Constraint)
+       unnamed constraint on [dbo].[FORNECEDOR_CLIENTE] (Default Constraint)
+     Alter
+       [dbo].[CAMPANHAS] (Table)
+     Table rebuild
+       [dbo].[FORNECEDOR_CLIENTE] (Table)
+     Create
+       [dbo].[FORNECEDOR_CLIENTE_OCORRENCIAS] (Table)
+       [dbo].[FK_FORNECEDOR_CLIENTE_OCORRENCIAS_FORNECEDORID] (Foreign Key)
+       [dbo].[FK_FORNECEDOR_CLIENTE_OCORRENCIAS_CLIENTE] (Foreign Key)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_FORNECEDOR_CLIENTE_FORNECEDOR] (Foreign Key)
+       [dbo].[FK_FORNECEDOR_CLIENTE_CLIENTES] (Foreign Key)
+     Create
+       [dbo].[FORNECEDOR_CLIENTE].[IX_CLIENTES_FORNECEDOR] (Index)
+       [dbo].[FK_FORNECEDOR_CLIENTE_FORNECEDOR] (Foreign Key)
+       [dbo].[FK_FORNECEDOR_CLIENTE_CLIENTES] (Foreign Key)
+       [dbo].[CK_FORNECEDOR_CLIENTE_CAPACIDADEENVIO] (Check Constraint)
+       [dbo].[CK_FORNECEDOR_CLIENTE_ENVIOACADA5MIN] (Check Constraint)
+     Refresh
+       [dbo].[FORNECEDORES_CLIENTE] (View)
+       [dbo].[HIGIENIZA] (Procedure)
+       [dbo].[CAMPANHA_RETORNO_PAGINACAO] (Procedure)
+       [dbo].[CONSOLIDADO_CAMPANHAS_AGENDADA] (Procedure)
+       [dbo].[CONSOLIDADO_STATUS_PAGINACAO] (Procedure)

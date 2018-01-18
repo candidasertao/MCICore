@@ -1,0 +1,16 @@
+D:\Projetos\MCI\src\MoneoTaskManager\bin\Release\netcoreapp2.0\appsettings.json
+D:\Projetos\MCI\src\MoneoTaskManager\bin\Release\netcoreapp2.0\MoneoTaskManager.deps.json
+D:\Projetos\MCI\src\MoneoTaskManager\bin\Release\netcoreapp2.0\MoneoTaskManager.runtimeconfig.json
+D:\Projetos\MCI\src\MoneoTaskManager\bin\Release\netcoreapp2.0\MoneoTaskManager.runtimeconfig.dev.json
+D:\Projetos\MCI\src\MoneoTaskManager\bin\Release\netcoreapp2.0\MoneoTaskManager.dll
+D:\Projetos\MCI\src\MoneoTaskManager\bin\Release\netcoreapp2.0\MoneoTaskManager.pdb
+D:\Projetos\MCI\src\MoneoTaskManager\bin\Release\netcoreapp2.0\ConecttaManagerData.dll
+D:\Projetos\MCI\src\MoneoTaskManager\bin\Release\netcoreapp2.0\MoneoCIModel.dll
+D:\Projetos\MCI\src\MoneoTaskManager\bin\Release\netcoreapp2.0\ConecttaManagerData.pdb
+D:\Projetos\MCI\src\MoneoTaskManager\bin\Release\netcoreapp2.0\MoneoCIModel.pdb
+D:\Projetos\MCI\src\MoneoTaskManager\obj\Release\netcoreapp2.0\MoneoTaskManager.csprojResolveAssemblyReference.cache
+D:\Projetos\MCI\src\MoneoTaskManager\obj\Release\netcoreapp2.0\MoneoTaskManager.csproj.CoreCompileInputs.cache
+D:\Projetos\MCI\src\MoneoTaskManager\obj\Release\netcoreapp2.0\MoneoTaskManager.AssemblyInfoInputs.cache
+D:\Projetos\MCI\src\MoneoTaskManager\obj\Release\netcoreapp2.0\MoneoTaskManager.AssemblyInfo.cs
+D:\Projetos\MCI\src\MoneoTaskManager\obj\Release\netcoreapp2.0\MoneoTaskManager.dll
+D:\Projetos\MCI\src\MoneoTaskManager\obj\Release\netcoreapp2.0\MoneoTaskManager.pdb

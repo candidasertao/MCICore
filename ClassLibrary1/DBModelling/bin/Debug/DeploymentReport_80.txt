@@ -1,0 +1,28 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[REJEITADAS_ANTERIORES]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The type for column CELULAR in table [dbo].[REJEITADAS_ANTERIORES] is currently  DECIMAL (12) NOT NULL but is being
+         changed to  NUMERIC (11) NOT NULL. Data loss could occur.
+
+** User actions
+     Alter
+       [dbo].[CAMPANHAS] (Table)
+     Table rebuild
+       [dbo].[REJEITADAS_ANTERIORES] (Table)
+
+** Supporting actions
+     Create
+       [dbo].[REJEITADAS_ANTERIORES].[IX_REJEITADAS_ANTERIORES_CELULAR_Includes] (Index)
+     Refresh
+       [dbo].[HIGIENIZA] (Procedure)
+       [dbo].[CAMPANHA_RETORNO_PAGINACAO] (Procedure)
+       [dbo].[CONSOLIDADO_CAMPANHAS_AGENDADA] (Procedure)
+       [dbo].[CONSOLIDADO_STATUS_PAGINACAO] (Procedure)
+
+The type for column CELULAR in table [dbo].[REJEITADAS_ANTERIORES] is currently  DECIMAL (12) NOT NULL but is being changed to  NUMERIC (11) NOT NULL. Data loss could occur.
+
